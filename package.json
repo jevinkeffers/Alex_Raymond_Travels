@@ -2,7 +2,7 @@
   "name": "Alex_Raymond_Travels",
   "description": "Alex Raymond Travels",
   "version": "1.1.3",
-  "author": "Austin Green",
+  "author": "Kevin Jeffers",
   "dependencies": {
     "bulma": "^0.9.0",
     "gatsby": "^2.20.35",
@@ -40,6 +40,8 @@
     "start": "npm run develop",
     "build": "npm run clean && gatsby build",
     "develop": "npm run clean && gatsby develop",
+    "cy:open": "cypress open",
+    "test:e2e": "start-server-and-test develop http://localhost:8000 cy:open",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"{gatsby-*.js,src/**/*.js}\"",
     "test": "jest"
   },
@@ -49,13 +51,12 @@
     "babel-jest": "^26.6.1",
     "babel-plugin-emotion": "^10.0.33",
     "babel-preset-gatsby": "^0.5.14",
+    "cypress": "^5.5.0",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^26.6.1",
     "jest-emotion": "^10.0.32",
     "prettier": "^2.0.5",
-    "react-test-renderer": "^17.0.1"
-  }
-  "jest": {
-    "setupFilesAfterEnv": [`<rootDir>/setup-test-env.js`]
+    "react-test-renderer": "^17.0.1",
+    "start-server-and-test": "^1.11.5"
   }
 }
