@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby + Netlify CMS Starter',
+    title: 'Alex Raymond Travels',
     description:
-      'This repo contains an example business website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.',
+      'Alex Raymond is a Travel Advisor with Epperly Travel, a boutique agency and member of the Virtuoso Network dedicated to providing a modern approach to travel planning.',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
