@@ -247,7 +247,8 @@ span {
     background-color: white;
     border-radius: 6px;
     box-shadow: 0 0.5em 1em -0.125em rgba(42, 42, 45, 0.1), 0 0px 0 1px rgba(42, 42, 45, 0.02);
-    color: #4a4a4a;
+    color: white;
+    text-decoration: none;
     display: block;
     padding: 1.25rem; }
 
@@ -923,7 +924,7 @@ a.navbar-item {
     background-color: #2a2a2d !important; }
 
 .has-text-primary {
-    color: #cc9999 !important; }
+    color: #fff6ea !important; }
 
 a.has-text-primary:hover, a.has-text-primary:focus {
     color: #bb7777 !important; }

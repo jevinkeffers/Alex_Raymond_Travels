@@ -21,7 +21,7 @@ export const IndexPageTemplate = ({
         backgroundImage: `url(${
           !!image.childImageSharp ? image.childImageSharp.fluid.src : image
         })`,
-        backgroundPosition: `top left`,
+        backgroundPosition: `top center`,
         backgroundAttachment: `fixed`,
       }}
     >
@@ -38,12 +38,15 @@ export const IndexPageTemplate = ({
         <h1
           className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
           style={{
-            boxShadow:
-              'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
-            backgroundColor: 'rgb(255, 68, 0)',
+            // boxShadow:
+            //   'rgb(0, 0, 0) 0rem 0px 0px, rgb(0, 0, 0) -0.0rem 0px 0px',
+            // backgroundColor: 'rgb(0, 0, 0)',
             color: 'white',
             lineHeight: '1',
             padding: '0.25em',
+            // textShadowColor: 'black',
+            // textShadowOffset: { width: -1, height: 1 },
+            // textShadowRadius: 10,
           }}
         >
           {title}
@@ -51,12 +54,15 @@ export const IndexPageTemplate = ({
         <h3
           className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
           style={{
-            boxShadow:
-              'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
-            backgroundColor: 'rgb(255, 68, 0)',
+            // boxShadow:
+            //   'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
+            // backgroundColor: 'rgb(255, 68, 0)',
             color: 'white',
             lineHeight: '1',
             padding: '0.25em',
+            // textShadowColor: 'black',
+            // textShadowOffset: { width: -1, height: 1 },
+            // textShadowRadius: 10,
           }}
         >
           {subheading}
@@ -76,13 +82,13 @@ export const IndexPageTemplate = ({
                   <div className="tile">
                     <h3 className="subtitle">{mainpitch.description}</h3>
                       <div>
-                        <Link className="btn" to="/products">
+                        <Link className="btn" to="/contact">
                           Start planning now!
                         </Link>
                       </div>
                   </div>
                 </div>
-                <div className="columns">
+                <div className="columns"> 
                   <div className="column is-12">
                     <h3 className="has-text-weight-semibold is-size-2">
                       {heading}
@@ -93,7 +99,7 @@ export const IndexPageTemplate = ({
                 <Features gridItems={intro.blurbs} />
                 <div className="columns">
                   <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/products">
+                    <Link className="btn" to="/contact">
                       Start planning now!
                     </Link>
                   </div>
