@@ -50,7 +50,7 @@ Road trips aren’t about the final destination, but the wild discoveries along 
 
 [Casa Palmero at Pebble Beach Resorts](https://www.pebblebeach.com/accommodations/casa-palmero-at-pebble-beach/)
 
-P[ost Ranch Inn](https://www.postranchinn.com/)
+[Post Ranch Inn](https://www.postranchinn.com/)
 
 [Ventana Big Sur, an Alila Resort](https://www.ventanabigsur.com/)
 
