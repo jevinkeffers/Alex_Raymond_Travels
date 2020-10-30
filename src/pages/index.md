@@ -1,9 +1,9 @@
 ---
 templateKey: index-page
-title: Alex Raymond Travels
+title: ALEX RAYMOND TRAVELS
 image: /img/home-jumbotron.jpg
 heading: Why You Should Travel With Alex
-subheading: The Art of Discovery
+subheading: THE ART OF DISCOVERY
 mainpitch:
   title: About Alex Raymond
   description: >
