@@ -14,6 +14,8 @@ tags:
   - alex raymond
   - alex raymond travel
 ---
+![compass](/img/compass-2.jpg "compass")
+
 From the first spark of an idea to your excited scurry to the departure gate, to the moment you open your hotel suite and rush to the window to catch the dazzling views, a travel advisor collaborates with you on every detail to ensure your trip is seamless.
 
 Here are just five reasons hiring a travel advisor could be the best decision you ever make:
