@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: The Benefits of Working with a Travel Advisor
-date: 2020-10-30T02:34:42.042Z
+date: 2020-10-30T15:49:02.489Z
 description: Peace of mind, exclusivity, insider knowledge and experience are
   just a few of the reasons why a trusted travel advisor can be your most loyal
   confidante.
@@ -15,6 +15,8 @@ tags:
   - alex raymond travel
 ---
 From the first spark of an idea to your excited scurry to the departure gate, to the moment you open your hotel suite and rush to the window to catch the dazzling views, a travel advisor collaborates with you on every detail to ensure your trip is seamless.
+
+![compass](/img/compass-2.jpg "compass")
 
 Here are just five reasons hiring a travel advisor could be the best decision you ever make:
 
@@ -32,8 +34,8 @@ Aside from saving you time researching the world and all it has to offer, adviso
 
 **4. They know how important all those life moments can be**
 
-At , one of the core values is “We create fun and celebrate constantly”. Whether it’s a destination wedding, an epic honeymoon, a 40th birthday or a happy retirement, advisors know how important it is to highlight every step of the journey so it becomes a part of your story forever. 
+At [Epperly Travels](https://www.epperlytravel.com/), one of the core values is “We create fun and celebrate constantly”. Whether it’s a destination wedding, an epic honeymoon, a 40th birthday or a happy retirement, advisors know how important it is to highlight every step of the journey so it becomes a part of your story forever.
 
 **5. They proactively seek your feedback**
 
-As you return home,  a reliable travel advisor will want to hear your stories! Recapping the details and keeping the relationship conversational rather than transactional is key to creating successful adventures. They will always look forward to learning more about you and your preferences so they can design the perfect itinerary for your next great discovery.
+As you return home, a reliable travel advisor will want to hear your stories! Recapping the details and keeping the relationship conversational rather than transactional is key to creating successful adventures. They will always look forward to learning more about you and your preferences so they can design the perfect itinerary for your next great discovery.
