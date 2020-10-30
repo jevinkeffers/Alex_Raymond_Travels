@@ -44,14 +44,14 @@ export const IndexPageTemplate = ({
             color: 'white',
             lineHeight: '1',
             padding: '0.25em',
-            // textShadowColor: 'black',
-            // textShadowOffset: { width: -1, height: 1 },
-            // textShadowRadius: 10,
+            textShadowColor: 'black',
+            textShadowOffset: { width: -1, height: 1 },
+            textShadowRadius: 10,
           }}
         >
           {title}
         </h1>
-        <h3
+        <h2
           className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
           style={{
             // boxShadow:
@@ -60,13 +60,13 @@ export const IndexPageTemplate = ({
             color: 'white',
             lineHeight: '1',
             padding: '0.25em',
-            // textShadowColor: 'black',
-            // textShadowOffset: { width: -1, height: 1 },
-            // textShadowRadius: 10,
+            textShadowColor: 'black',
+            textShadowOffset: { width: -1, height: 1 },
+            textShadowRadius: 10,
           }}
         >
           {subheading}
-        </h3>
+        </h2>
       </div>
     </div>
     <section className="section section--gradient">
@@ -80,7 +80,7 @@ export const IndexPageTemplate = ({
                     <h1 className="title">{mainpitch.title}</h1>
                   </div>
                   <div className="tile">
-                    <h3 className="subtitle">{mainpitch.description}</h3>
+                    <h4 className="subtitle">{mainpitch.description}</h4>
                       <div>
                         <Link className="btn" to="/contact">
                           Start planning now!

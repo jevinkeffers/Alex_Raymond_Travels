@@ -225,7 +225,7 @@ a {
     cursor: pointer;
     text-decoration: none; }
     a:hover {
-        color: #fff6ea; }
+        color: #2a2a2d; }
 
 code {
     background-color: whitesmoke;
@@ -927,7 +927,7 @@ a.navbar-item {
     color: #fff6ea !important; }
 
 a.has-text-primary:hover, a.has-text-primary:focus {
-    color: #bb7777 !important; }
+    color: white!important; }
 
 .has-text-white-ter {
     color: whitesmoke !important; }
