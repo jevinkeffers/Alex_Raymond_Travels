@@ -226,11 +226,12 @@ a {
     cursor: pointer;
     text-decoration: none; }
     a:hover {
+        background-color: #fff6ea;
         color: #2a2a2d; }
 
 code {
     background-color: whitesmoke;
-    color: #da1039;
+    color: #cc9999;
     font-size: 0.875em;
     font-weight: normal;
     padding: 0.25em 0.5em 0.25em; }
@@ -391,13 +392,13 @@ a.box:active {
         width: 100%; }
 
 .notification {
-    background-color: whitesmoke;
+    background-color: #2a2a2d;
     border-radius: 4px;
     position: relative;
     padding: 1.25rem 2.5rem 1.25rem 1.5rem; }
     .notification a:not(.button):not(.dropdown-item) {
-        color: currentColor;
-        text-decoration: underline; }
+        color: #2a2a2d;
+        text-decoration: none; }
     .notification code {
         background: white; }
     .notification .title,
@@ -928,7 +929,7 @@ a.navbar-item {
     color: #fff6ea !important; }
 
 a.has-text-primary:hover, a.has-text-primary:focus {
-    color: white!important; }
+    color: #2a2a2d!important; }
 
 .has-text-white-ter {
     color: whitesmoke !important; }
