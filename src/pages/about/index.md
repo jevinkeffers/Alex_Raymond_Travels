@@ -1,11 +1,13 @@
 ---
-templateKey: 'about-page'
+templateKey: about-page
 path: /about
 title: About Alex Raymond
 ---
 ### Travel Advisor with Epperly Travel
-Travel will always tell a story. As one of the purest forms of transformation, it provides wishful thinking, imagination, new experiences and new tastes. Whether you’re looking to step outside your comfort zone, embark on a romantic getaway or just hit pause on your fast-paced life, I create tailor-made vacations that can have an outlook-altering effect perfectly curated to your specific personality. With a background in public relations and client service, I understand the importance of building that unique relationship and really listening to the finest details of your tastes and interests in an effort to give you the most substantive and enriching experience any destination has to offer. Travel is a gift, now more than ever, and sharing in the planning of trips that inspire others to embrace the unknown and seek adventure whenever possible will always be my passion.
 
+![Alex Raymond](/img/AR_headshot.png "Alex Raymond")
+
+Travel will always tell a story. As one of the purest forms of transformation, it provides wishful thinking, imagination, new experiences and new tastes. Whether you’re looking to step outside your comfort zone, embark on a romantic getaway or just hit pause on your fast-paced life, I create tailor-made vacations that can have an outlook-altering effect perfectly curated to your specific personality. With a background in public relations and client service, I understand the importance of building that unique relationship and really listening to the finest details of your tastes and interests in an effort to give you the most substantive and enriching experience any destination has to offer. Travel is a gift, now more than ever, and sharing in the planning of trips that inspire others to embrace the unknown and seek adventure whenever possible will always be my passion.
 
 <!-- ### Single origin
 Single-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available.
