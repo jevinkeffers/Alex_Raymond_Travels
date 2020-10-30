@@ -1,11 +1,12 @@
-@import "~bulma/sass/utilities/initial-variables"
+@import "~bulma/sass/utilities/initial-variables";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
 // Config vars
-// Kaldi logo brand color: #FD461E
-$kaldi-red: #D64000
+// Alex Raymond Travels: #cc9999
+$ART-rosybrown: #cc9999
 $kaldi-red-invert: #fff
 
-$primary: $kaldi-red
+$primary: $ART-rosybrown
 $primary-invert: $kaldi-red-invert
 $body-color: #333
 $black: #2b2523
