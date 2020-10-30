@@ -30,6 +30,8 @@ tags:
   - Big Sur
   - Bixby Bridge
 ---
+![The Bixby Bridge is a must-stop if you take the stunning Highway 1 road trip up the California Coast.](/img/california-2.jpg "bixby-bridge")
+
 This is the kind of travel that changes you. You can always have a plan, you can always stick to an itinerary, but the beauty of the open road will always slow you down — the scenic route, what a beautiful concept.
 
 With the sprawling San Francisco skyline in your rearview, you’ll head south towards charming Monterey, about two hours, but it’s best if you take your time and embrace little stops along the way. In Monterey, you’ll want to stroll through Fisherman’s Wharf, grab a bite at Cannery Row and of course spend a few hours in the Monterey Bay Aquarium.
