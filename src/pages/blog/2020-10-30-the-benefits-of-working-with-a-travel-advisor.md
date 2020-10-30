@@ -34,7 +34,7 @@ Aside from saving you time researching the world and all it has to offer, adviso
 
 **4. They know how important all those life moments can be**
 
-At , one of the core values is “We create fun and celebrate constantly”. Whether it’s a destination wedding, an epic honeymoon, a 40th birthday or a happy retirement, advisors know how important it is to highlight every step of the journey so it becomes a part of your story forever. 
+At Epperly Travels, one of the core values is “We create fun and celebrate constantly”. Whether it’s a destination wedding, an epic honeymoon, a 40th birthday or a happy retirement, advisors know how important it is to highlight every step of the journey so it becomes a part of your story forever. 
 
 **5. They proactively seek your feedback**
 
