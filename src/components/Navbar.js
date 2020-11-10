@@ -1,101 +1,80 @@
-import React from 'react'
-import { Link } from 'gatsby'
-// import github from '../img/github-icon.svg'
-import logo from '../img/logo.png'
+import React, { useState, useEffect } from 'react';
+import { Button } from './Button';
+import { Link } from 'react-router-dom';
+import './Navbar.css';
 
-const Navbar = class extends React.Component {
-  constructor(props) {
-    super(props)
-    this.state = {
-      active: false,
-      navBarActiveClass: '',
+function Navbar() {
+  const [click, setClick] = useState(false);
+  const [button, setButton] = useState(true);
+
+  const handleClick = () => setClick(!click);
+  const closeMobileMenu = () => setClick(false);
+
+  const showButton = () => {
+    if (window.innerWidth <= 960) {
+      setButton(false);
+    } else {
+      setButton(true);
     }
-  }
+  };
 
-  toggleHamburger = () => {
-    // toggle the active boolean in the state
-    this.setState(
-      {
-        active: !this.state.active,
-      },
-      // after state has been updated,
-      () => {
-        // set the class in state for the navbar accordingly
-        this.state.active
-          ? this.setState({
-              navBarActiveClass: 'is-active',
-            })
-          : this.setState({
-              navBarActiveClass: '',
-            })
-      }
-    )
-  }
+  useEffect(() => {
+    showButton();
+  }, []);
 
-  render() {
-    return (
-      <nav
-        className="navbar is-transparent"
-        role="navigation"
-        aria-label="main-navigation"
-      >
-        <div className="container">
-          <div className="navbar-brand">
-            <Link to="/" className="navbar-item" title="Logo">
-              <img src={logo} alt="Alex Raymond Travels" style={{ width: 'auto', height: 'auto' }} />
-            </Link>
-            {/* Hamburger menu */}
-            <div
-              className={`navbar-burger burger ${this.state.navBarActiveClass}`}
-              data-target="navMenu"
-              onClick={() => this.toggleHamburger()}
-            >
-              <span />
-              <span />
-              <span />
-            </div>
+  window.addEventListener('resize', showButton);
+
+  return (
+    <>
+      <nav className='navbar'>
+        <div className='navbar-container'>
+          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+            TRVL
+            <i class='fab fa-typo3' />
+          </Link>
+          <div className='menu-icon' onClick={handleClick}>
+            <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
           </div>
-          <div
-            id="navMenu"
-            className={`navbar-menu ${this.state.navBarActiveClass}`}
-          >
-            <div className="navbar-start has-text-centered">
-            <Link className="navbar-item" to="/">
+          <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+            <li className='nav-item'>
+              <Link to='/' className='nav-links' onClick={closeMobileMenu}>
                 Home
               </Link>
-              <Link className="navbar-item" to="/about">
-                About Alex Raymond
-              </Link>
-              {/* <Link className="navbar-item" to="/products">
-                Products
-              </Link> */}
-              <Link className="navbar-item" to="/contact">
-                Book Your Trip
-              </Link>
-              <Link className="navbar-item" to="/blog">
-                From the Newsletter
-              </Link>
-              {/* <Link className="navbar-item" to="/contact/examples">
-                Form Examples
-              </Link> */}
-            </div>
-            <div className="navbar-end has-text-centered">
-              <a
-                className="navbar-item"
-                href="https://github.com/netlify-templates/gatsby-starter-netlify-cms"
-                target="_blank"
-                rel="noopener noreferrer"
+            </li>
+            <li className='nav-item'>
+              <Link
+                to='/services'
+                className='nav-links'
+                onClick={closeMobileMenu}
               >
-                {/* <span className="icon">
-                  <img src={github} alt="Github" />
-                </span> */}
-              </a>
-            </div>
-          </div>
+                Services
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link
+                to='/products'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                Products
+              </Link>
+            </li>
+
+            <li>
+              <Link
+                to='/sign-up'
+                className='nav-links-mobile'
+                onClick={closeMobileMenu}
+              >
+                Sign Up
+              </Link>
+            </li>
+          </ul>
+          {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
         </div>
       </nav>
-    )
-  }
+    </>
+  );
 }
 
-export default Navbar
+export default Navbar;
