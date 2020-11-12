@@ -33,7 +33,7 @@ class BlogList extends React.Component {
                         <div className='wrapper'>
                             {!!this.state.articles.length > 0 ?
                             <Posts posts={this.state.articles} />
-                            :(<p>Loading posts</p>)}
+                            :(<p>Loading ...</p>)}
                         </div>
                     </main>
                 </div>
