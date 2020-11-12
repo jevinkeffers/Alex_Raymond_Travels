@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../App.css';
 import { client } from '../../client';
-import Posts from './components/Posts';
+import Posts from '../Posts';
 
 class BlogList extends React.Component {
     state = {
@@ -9,7 +9,8 @@ class BlogList extends React.Component {
     }
 
     componentDidMount() {
-        client.getEntries({ content_type: 'recipes' })
+        console.log('component mounted')
+        client.getEntries({ content_type: 'blog' })
             .then((response) => {
                 console.log(response)
                 this.setState({
@@ -30,7 +31,9 @@ class BlogList extends React.Component {
                     </header>
                     <main>
                         <div className='wrapper'>
+                            {!!this.state.articles.length > 0 ?
                             <Posts posts={this.state.articles} />
+                            :(<p>Loading posts</p>)}
                         </div>
                     </main>
                 </div>

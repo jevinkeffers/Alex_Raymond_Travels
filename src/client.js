@@ -1,6 +1,10 @@
 import * as contentful from 'contentful'
+import { documentToHtmlString } from '@contentful/rich-text-html-renderer';
+
 
 export const client = contentful.createClient({
-    space: process.env.REACT_APP_SPACE_ID,
-    accessToken: process.env.REACT_APP_ACCESS_TOKEN
+    space: 'jc35ohpaz200',
+    accessToken: 'gmh4B7LHkPsCNtECd0E5oECnh0jjxZCOL6aNDxp4B7Q'
 })
+
+client.getEntry('<entry_id>');
